@@ -28,6 +28,8 @@
     .work-box3 img {margin: 63px 0 0 87px; }
     .work-box4 img {margin: 30px 0 0 89px;  }
 
+    .read-btn3{color: #2e8096;font-size: 16px;    padding: 10px 20px; }
+
 
     .tech-box  h2 { padding:  0; margin: 10px 0;font-size: 22px; }
     .tech-box  p {text-align: left;padding: 10px 0; margin: 0; font-size: 14px; }
@@ -36,6 +38,7 @@
 
 @media only screen and (max-width: 992px) {
   
+       
 
     .login-btn {padding: 5px 10px; margin: 10px 10px 0 0;}
     .topnav a {  padding: 15px 10px; font-size: 17px;}
@@ -85,7 +88,21 @@
     .work-box3 img {margin: 60px 0 0 0px;  max-width: 100%; }
     .work-box4 img {margin: 29px 0 0 0px;  max-width: 100%; }
 
+
+    .dev-main { padding: 60px 40px 70px;}
+    .dev-left {float: left; max-width: 75%; }
+    .dev-right {float: right; max-width: 25%;}
+   .read-btn3{color: #2e8096;font-size: 16px;  padding: 10px 20px;}    
+   .circle {width: 175px;  height: 175px;  border-radius: 50%; left: 0px;  }
+   .dev-left h1{color: #fff;  font-size: 24px;  font-weight: 300; line-height: 32px;}
+   .dev-left h2  {font-weight: 700;line-height: 24px;color: #fff;}
+
+
+
+
     .tech_wrapper {padding: 70px 0 80px 0;}
+
+    .form_wrapper ul {list-style: none; display: block;}
 
 
 }
@@ -124,9 +141,23 @@
     .work-box3 {margin: 20px 0;padding: 100px  0 0 0;}
     .work-box4 {margin: 20px 0;padding: 130px  0 0 0 ;}
 
+
+    .dev-main { padding: 60px 40px 70px; display: block;}
+    .dev-left {float: none; max-width: 100%;position: none; }
+    .dev-right {float: none; max-width: 100%;position: none;}
+   .read-btn3{color: #2e8096;font-size: 18px;  padding: 10px 25px;}    
+   .circle {width: 175px;  height: 175px;  border-radius: 50%; left: 0px;  }
+   .dev-left h1{color: #fff;  font-size: 24px;  font-weight: 300; line-height: 32px;}
+   .dev-left h2  {font-weight: 700;line-height: 24px;color: #fff;}
+ 
+
+
+
     .tech_wrapper {  padding-top: 50px; padding-bottom: 64px;}
     .tech-box  h2 { padding:  0; margin: 5px 0;font-size: 23px; }
     .tech-box  p {padding: 5px 0; margin: 0; font-size: 16px; text-align: center; }
+
+    .form  {font-size: 16px; padding: 12px;}
   
 }
 
@@ -161,6 +192,16 @@
 
     .btn-box-3 {max-width:75%; align-items: center;}
     .img-btn {  padding: 5 0px ; font-size: 14px; margin:0 5px; }
+
+
+    .name {width: 100%; max-width: 100%; display: block; padding: 1px 0; margin: 0;}
+    .name-left {float: none; max-width: 100%; }
+    .name-right {float: none; max-width: 100%; }
+    .form  {font-size: 14px; margin: 5px 0;  }
+    .select{font-size: 14px; margin: 5px 0;  }
+    .textarea  {font-size: 14px; margin: 5px 0;  }
+    .submit {font-size: 14px;}
+    .form_wrapper p {font-size: 15px;line-height: 130%;}
 }
 
 @media only screen and (max-width: 400px) {
