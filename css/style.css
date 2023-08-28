@@ -40,6 +40,9 @@ body {box-sizing: border-box; padding: 0; margin: 0;width: 100%;font-family: 'Sy
 .banner-child {list-style: none;padding: 0; margin: 0;}
 .banner-child li {padding: 0 ; margin: 10px 0;}
 .banner-child li img {max-width: 278px;}
+.banner-last{list-style: none;padding: 0; margin: 0;}
+.banner-last li {padding: 0 ; margin: 10px 0;}
+.banner-last li img {max-width: 278px;}
 
 
 .service_wrapper {padding: 60px 0 ; margin: 0;}
