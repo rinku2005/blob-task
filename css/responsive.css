@@ -189,8 +189,11 @@
     .banner-last li img {margin: 0 5px;}
     .banner-last li  {display: none !important;}
     .banner-last {display: none !important;}
-    .banner-parent {   height: 50%; text-align: center;}
+    .banner-parent {   height: 10%; text-align: center; padding: 0; margin: 0;} 
 
+    .service_wrapper {padding: 10px 0 ; margin: 0;}
+
+    .gro_wrapper {padding: 10px 0;}
 
     .model-right h2 { margin-bottom: 15px;  font-size: 26px;line-height: 36px;}
     .model-box img {max-width: 25%; width: 100%; margin: 5px  0 20px 0;}
@@ -220,13 +223,13 @@
     .login-btn {padding: 5px ; margin: 4px 2px 0 0;font-size: 9px; }
     .button-wrapper {float: left;}
 
-    .banner-main {padding: 20px;}
+    .banner-main {padding: 20px 0px;}
     .banner-left h1 {  text-align: center; font-size: 36px; line-height: 45px;}
     .banner-left p {text-align: left;      font-size: 22px;   line-height: 35px;}
     .team  p {font-size: 14px; line-height: 30px; text-align: center;}
 
 
-    .btn-box-3 {max-width: 80%;}
+    .btn-box-3 {max-width: 100%;}
     .img-btn {  padding: 5 0px ; font-size: 12px; margin:0 5px; }
     .btn-box-3 ul li {padding: 5px ; margin: 0;}
 
