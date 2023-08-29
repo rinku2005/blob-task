@@ -41,11 +41,11 @@ height: 600px;}
 .banner-parent li {padding: 0 ; margin:0; display: inline-flex; max-width: 100%;width: 100%; }
 .banner-child {list-style: none;padding: 0; margin: 0;height: 100%;}
 .banner-child li {padding: 0 ; margin: 0px ;}
-.banner-child li img {max-width: 100%;padding: 0px ; margin:  10px; height: 278px;object-fit: cover;border-radius: 10px;
-width: 100%;}
+.banner-child li img {max-width: 88.58%;padding: 0px ; margin:  10px; height: 278px;object-fit: cover;border-radius: 10px;
+width: 100%; }
 .banner-last{padding: 0 ; margin:0; ; max-width: 100%;width: 100%; }
 .banner-last li {padding: 0 ; margin: 0px ; }
-.banner-last li img {max-width: 100%; padding: 0px ; margin:  10px;height: 278px;object-fit: cover;border-radius: 10px;
+.banner-last li img {max-width: 88.58%; padding: 0px ; margin:  10px;height: 278px;object-fit: cover;border-radius: 10px;
 width: 100%;}
 
 
@@ -85,8 +85,8 @@ line-height: 30px;}
 .model-main {display: flex; width: 100%; max-width: 100%; padding: 00; margin: 0;}
 .model-left {float: left; max-width: 55%; width: 100%;}
 .model-right {float: right; max-width: 45%; width: 100%; padding-left: 40px;}
-.model-box {background-color: #fff; padding: 44px 40px; margin: 10px 10px 10px 0 ; border-radius: 5px;}
-.model-box img {max-width: 30%; width: 100%; margin: 10px 0;}
+.model-box {background-color: #fff; padding: 44px 40px; margin: 10px 10px 10px 0 ; border-radius: 5px;height: 450px;}
+.model-box img {max-width: 30%; width: 100%; margin: 10px 0;  }
 .model-box h3 {font-size: 24px; font-weight: 700;line-height: 42px;}
 .model-box p { margin-top: 12px; font-size: 18px; font-weight: 300; line-height: 32px;}
 .model-right h2 { margin-bottom: 10px;  font-size: 36px;line-height: 52px;}
@@ -172,7 +172,7 @@ border: none;}
 .dev-left h2  {font-weight: 700;line-height: 32px;color: #fff;}
 
 .tech_wrapper {padding:100px 0 50px 0; ;}
-.tech-box {padding: 20px; border-radius: 10px; border: 1px solid rgb(192, 187, 187); margin: 20px 0;}
+.tech-box {padding: 20px; border-radius: 10px; border: 1px solid rgb(192, 187, 187); margin: 20px 0;height: 400px;}
 .tech-box  img {border-radius: 8px; margin: 10px 0; padding: 0  ;}
 .tech_wrapper h1 { text-align: center; padding: 10px 0; margin: 0;font-weight: 600;}
 .tech_wrapper p {text-align: center;padding: 10px 0; margin: 0; }

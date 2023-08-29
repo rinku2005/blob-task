@@ -31,7 +31,7 @@
 
     .read-btn3{color: #2e8096;font-size: 16px;    padding: 10px 20px; }
 
-
+    .form_wrapper ul li  { font-size: 14px;}
     .tech-box  h2 { padding:  0; margin: 10px 0;font-size: 22px; }
     .tech-box  p {text-align: left;padding: 10px 0; margin: 0; font-size: 14px;}
 }
@@ -106,6 +106,7 @@
 
     .tech_wrapper {padding: 70px 0 80px 0;}
 
+    .form_wrapper ul li  { font-size: 16px;}
     .form_wrapper ul {list-style: none; display: block;}
 
 
@@ -130,14 +131,14 @@
     .growth-right {max-width: 100% ;width: 100%;}
     
     .model_wrapper {padding: 50px 0 64px 0;}
-    .model-box { padding: 32px ; margin: 10px 0 10px 0 ; border-radius: 6px;}
+    .model-box { padding: 32px ; margin: 10px 0 10px 0 ; border-radius: 6px;height: 300px;}
     .model-box img {max-width: 13%; width: 100%; margin: 5px 0;}
 
     .blob_wrapper {padding: 50px 0 64px 0;}
     .blob_wrapper h1 { font-size: 30px; line-height: 45px;padding: 10px 0;}     
     .number_box h1 {font-size: 41px;}
 
-    .btn-box-3 {max-width: 50%;}
+    .btn-box-3 {max-width: 63%;}
 
     .work_wrapper {padding: 50px 0 64px 0;}
     .work-box1 {margin: 20px 0;padding: 150px  0 0 0px;}
@@ -194,20 +195,33 @@
     .service_wrapper {padding: 10px 0 ; margin: 0;}
 
     .gro_wrapper {padding: 10px 0;}
-
+    .model-box {height:350px;}
+    .model_wrapper {padding: 10px  0;} 
     .model-right h2 { margin-bottom: 15px;  font-size: 26px;line-height: 36px;}
     .model-box img {max-width: 25%; width: 100%; margin: 5px  0 20px 0;}
     .model-box h3 {font-size: 22px; line-height: 28px;}
 
+    .blob_wrapper {padding: 10px 0; margin: 0;}
     .blob_wrapper h1 {   padding-left: 12px;  padding-right: 12px;  font-size: 26px;line-height: 36px;} 
     .number_box h1 {font-size: 41px;}    
 
+    .team_wrapper {padding: 10px 0; margin: 0   ;}
     .team-content h1 {font-size: 32px;line-height: 42px;}
 
+
+    .enterprise_wrapper {padding: 10px  0;}
     .btn-box-3 {max-width:75%; align-items: center;}
     .img-btn {  padding: 5 0px ; font-size: 14px; margin:0 5px; }
 
+    .work_wrapper {padding: 10px 0;}
 
+    .developer_wrapper {padding: 10px 0;}
+    .tech_wrapper {padding:20px 0 ; ;}
+
+    .trust_wrapper {padding: 20px 0;}
+
+    .form_wrapper {padding: 10px 00;}
+    .footer_wrapper {padding: 20px 0;}
     .name {width: 100%; max-width: 100%; display: block; padding: 1px 0; margin: 0;}
     .name-left {float: none; max-width: 100%; }
     .name-right {float: none; max-width: 100%; }
@@ -228,6 +242,7 @@
     .banner-left p {text-align: left;      font-size: 22px;   line-height: 35px;}
     .team  p {font-size: 14px; line-height: 30px; text-align: center;}
 
+    .model-box {height: 351px;}
 
     .btn-box-3 {max-width: 100%;}
     .img-btn {  padding: 5 0px ; font-size: 12px; margin:0 5px; }
