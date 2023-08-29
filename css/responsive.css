@@ -1,9 +1,7 @@
 
-
-
-
 @media only screen and (max-width: 1399px) { 
-
+    body {box-sizing: border-box; padding: 0; margin: 0;}
+     
     .work-box1 img {margin: 0 0 0 107px;  }
     .work-box2 img {margin: 65px 0 0 107px;  }
     .work-box3 img {margin: 65px 0 0 108px;  }
@@ -187,8 +185,13 @@
 }
 @media only screen and (max-width: 500px) {
 
-    .banner-last {display: none; }
-   
+    .last {display: none !important;}
+    .banner-last li img {margin: 0 5px;}
+    .banner-last li  {display: none !important;}
+    .banner-last {display: none !important;}
+    .banner-parent {   height: 50%; text-align: center;}
+
+
     .model-right h2 { margin-bottom: 15px;  font-size: 26px;line-height: 36px;}
     .model-box img {max-width: 25%; width: 100%; margin: 5px  0 20px 0;}
     .model-box h3 {font-size: 22px; line-height: 28px;}

@@ -1,9 +1,10 @@
 
-body {box-sizing: border-box; padding: 0; margin: 0;width: 100%;font-family: 'Syne', sans-serif;}
+body {box-sizing: border-box; padding: 0; margin: 0;    font-family: 'Syne', sans-serif;}
 
-.container {max-width: 1430px; width: 100%; margin: 0 auto;}
+.container {max-width: 1170px; width: 100%; margin: 0 auto;}
 
 .container-fluid {width: 100%; max-width: 100%;}
+
 
 .navbar-expand-lg {border-block: 1px solid #ece9e9;}
 .img-logo {height: 100%;  max-width: 150px;}
@@ -20,7 +21,7 @@ body {box-sizing: border-box; padding: 0; margin: 0;width: 100%;font-family: 'Sy
 .banner_wrapper {padding:0 ; margin: 0;}
 .banner-main {padding: 30px; margin: 0; display: flex;}
 .banner-left {float: left; max-width: 50% ; width: 100%; padding-top: 100px;}
-.banner-right {float: right; max-width: 50% ; width: 100%;  }
+.banner-right {float: right; max-width: 50% ; width: 100%;}
 .banner-left h1 {   margin-top: 20px;  margin-bottom: 10px;  font-size: 41px;  font-weight: 700;line-height: 60px; }
 .banner-left p {font-size: 24px;  line-height: 40px;padding: 10px 0; margin: 0;}
 .btn-box {width: 100%; padding: 10px 0; margin: 0;}
@@ -35,14 +36,17 @@ body {box-sizing: border-box; padding: 0; margin: 0;width: 100%;font-family: 'Sy
 .team ul li a {text-decoration: none;}
 .team ul li  a img {max-width: 100%; width: 100%;filter: grayscale();}
 .team ul li  a img:hover {filter: none;}
-.banner-parent {display: flex; padding: 0; margin: 0; list-style: none;background-blend-mode: hard-light;}
-.banner-parent li {padding: 0 ; margin: 0 10px;}
-.banner-child {list-style: none;padding: 0; margin: 0;}
-.banner-child li {padding: 0 ; margin: 10px 0;}
-.banner-child li img {max-width: 278px;}
-.banner-last{list-style: none;padding: 0; margin: 0;}
-.banner-last li {padding: 0 ; margin: 10px 0;}
-.banner-last li img {max-width: 278px;}
+.banner-parent {display: flex; padding: 0; margin: 0; list-style: none;
+height: 600px;}
+.banner-parent li {padding: 0 ; margin:0; display: inline-flex; max-width: 100%;width: 100%; }
+.banner-child {list-style: none;padding: 0; margin: 0;height: 100%;}
+.banner-child li {padding: 0 ; margin: 0 10px ;}
+.banner-child li img {max-width: 100%;padding: 0px ; margin:  10px; height: 278px;object-fit: cover;border-radius: 10px;
+width: 100%;}
+.banner-last{padding: 0 ; margin:0; ; max-width: 100%;width: 100%; }
+.banner-last li {padding: 0 ; margin:0 10px ; }
+.banner-last li img {max-width: 100%; padding: 0px ; margin:  10px;height: 278px;object-fit: cover;border-radius: 10px;
+width: 100%;}
 
 
 .service_wrapper {padding: 60px 0 ; margin: 0;}
@@ -108,7 +112,7 @@ max-width: 1000px; padding: 20px 0;}
 
 .team_wrapper {padding: 100px 0 50px 0; margin: 0   ;}
 .team_wrapper img {border-radius: 5px; width: 100%; max-width: 100%;}
-.team-content {padding: 59px 0; margin: 0;} 
+.team-content {padding: 28px 0; margin: 0;} 
 .row {padding: 0px 0; margin: 0 0 60px 0;}
 .team-content h1 {margin-top: 20px;margin-bottom: 10px; font-size: 36px;  font-weight: 700;line-height: 52px;}
 .team-content p {margin-top: 12px;  padding-right: 0;   font-weight: 500; line-height: 32px;}
