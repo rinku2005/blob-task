@@ -12,7 +12,16 @@
 
 
 @media only screen and (max-width: 1200px) { 
+
+    .nav-item  {padding:  0px ; }
    
+    .banner-left {float: left; max-width: 50% ; width: 100%; padding-top: 100px ; margin: 0 0px 0 0;}
+    .banner-right {float: right; max-width: 50% ; width: 100%; margin: 0 0 0 80px;}
+    .banner-left h1 {   margin-top: 20px;  margin-bottom: 10px; font-size: 30px; padding-right: 208px;}
+    .banner-left p {font-size: 24px;line-height: 40px;}
+    .book-btn { padding: 0 4px; margin: 20px 0;}
+    .read-btn{ padding: 0 4px; margin: 20px 0;}
+
     .growt_wrapper h1 {margin-top: 20px; margin-bottom: 10px;font-size: 34px;font-weight: 700; line-height: 52px; }
 
     .team-content {padding: 0px 0; margin: 0;} 
@@ -39,9 +48,12 @@
 
 
 @media only screen and (max-width: 992px) {
-  
-    .talk-btn{margin: 0 auto;}
-    .navbar-collapse {background-color: #f9f9f9;  border-radius: 15px; margin: 10px 0;}   
+
+    .nav-item  {line-height: 50px; margin: 0; font-size: 18px;}
+
+
+    .talk-btn{margin: 0 auto;width: 100%;padding: 15px 0; }
+    .navbar-collapse {background-color: #f9f9f9;  margin: 10px 0; padding: 24px;}   
     .navbar-light .navbar-toggler { border: 1px solid #ddd3d3; padding: 2px 8px; }
 
     .login-btn {padding: 5px 10px; margin: 10px 10px 0 0;}
@@ -49,9 +61,10 @@
 
 
     .banner-main { display: block; }
-    .banner-left {float: none; max-width: 100% ; width: 100%; padding: 50px 0;}
-    .banner-right {float: none; max-width: 100% ; width: 100%;}
-    .banner-left h1 {   line-height: 58px; font-size:35px; }
+    .banner-left {float: none; max-width: 100% ; width: 100%; padding: 50px 0; margin: 0;}
+    .banner-right {float: none; max-width: 100% ; width: 100%;margin: 0 auto;height: 652px;
+        max-width: 580px;}
+    .banner-left h1 {   margin-top: 20px;  margin-bottom: 10px; font-size: 30px;  line-height: 56px; }
 
     .team  p {padding: 10px 0; margin: 0;font-size: 16px; line-height: 28px;}
    
@@ -125,13 +138,16 @@
     .team  ul {display: flex;}
     .team ul li  a img {max-width: 100px; width: 100%;}
 
+    .gro-img-box {text-align: center    ;}                   
+    .gro_wrapper img {max-width: 60%;       }
     .growhth_wrapper {padding: 50px 0 64px 0;}
     .growth-main {display: inline-block; padding: 0; margin: 0; width: 100%;}
     .growth-left {max-width: 100%; width: 100%;}
     .growth-right {max-width: 100% ;width: 100%;}
     
+    
     .model_wrapper {padding: 50px 0 64px 0;}
-    .model-box { padding: 32px ; margin: 10px 0 10px 0 ; border-radius: 6px;height: 300px;}
+    .model-box { padding: 32px ; margin: 10px 0 10px 0 ; border-radius: 6px;height: 270px;}
     .model-box img {max-width: 13%; width: 100%; margin: 5px 0;}
 
     .blob_wrapper {padding: 50px 0 64px 0;}
@@ -165,8 +181,10 @@
     .form  {font-size: 16px; padding: 12px;}
   
 }
+    
 
 @media only screen and (max-width: 600px) {
+
 
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {   float: right; display: block;padding: 10px; font-size: 20px;}
@@ -182,6 +200,8 @@
     .service_wrapper p {max-width: 100% ;width: 100%; }
 
     .service_wrapper {padding: 40px 0 ; margin: 0;}
+
+    
   
 }
 @media only screen and (max-width: 500px) {
@@ -194,33 +214,28 @@
 
     .service_wrapper {padding: 10px 0 ; margin: 0;}
 
-    .gro_wrapper {padding: 10px 0;}
+ 
     .model-box {height:350px;}
     .model_wrapper {padding: 10px  0;} 
-    .model-right h2 { margin-bottom: 15px;  font-size: 26px;line-height: 36px;}
+    .model-right h2 { margin: 15px 0px;  font-size: 26px;line-height: 36px;}
     .model-box img {max-width: 25%; width: 100%; margin: 5px  0 20px 0;}
     .model-box h3 {font-size: 22px; line-height: 28px;}
 
-    .blob_wrapper {padding: 10px 0; margin: 0;}
     .blob_wrapper h1 {   padding-left: 12px;  padding-right: 12px;  font-size: 26px;line-height: 36px;} 
     .number_box h1 {font-size: 41px;}    
 
-    .team_wrapper {padding: 10px 0; margin: 0   ;}
+   
     .team-content h1 {font-size: 32px;line-height: 42px;}
 
 
-    .enterprise_wrapper {padding: 10px  0;}
+   
     .btn-box-3 {max-width:75%; align-items: center;}
     .img-btn {  padding: 5 0px ; font-size: 14px; margin:0 5px; }
 
-    .work_wrapper {padding: 10px 0;}
+  
 
-    .developer_wrapper {padding: 10px 0;}
-    .tech_wrapper {padding:20px 0 ; ;}
 
-    .trust_wrapper {padding: 20px 0;}
-
-    .form_wrapper {padding: 10px 00;}
+  
     .footer_wrapper {padding: 20px 0;}
     .name {width: 100%; max-width: 100%; display: block; padding: 1px 0; margin: 0;}
     .name-left {float: none; max-width: 100%; }
