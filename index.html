@@ -19,8 +19,8 @@
 
 
 
-
-     <nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light ">
             <a class="navbar-brand" href="#"><img Class="img-logo" src="images/logo.png"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,8 +55,8 @@
                     <button class="talk-btn">Let’s Talk</button>
                 </form>
             </div>
-    </nav>
-
+        </nav>
+    </div>
 
     <div class="banner_wrapper">
         <div class="container">
@@ -71,8 +71,17 @@
                             <button class="book-btn">Book a free consulation</button>
                             <button class="read-btn">Read more abhout us</button>
                         </div>
-                        
+
                     </section>
+                    <div class="team">
+                        <p>Trusted by the teams at: </p>
+                        <ul>
+                            <li><a href="#"> <img class="img-fluid" src="images/banner-img1.svg"></a> </li>
+                            <li><a href="#"><img class="img-fluid" src="images/banner-img2.svg"></a></li>
+                            <li><a href="#"><img class="img-fluid" src="images/banner-img3.svg"></a></li>
+                            <li><a href="#"><img class="img-fluid" src="images/banner-img4.svg"></a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="banner-right">
                     <section class="wow fadeIn" data-wow-duration="5s" data-wow- delay="5s">
@@ -109,15 +118,7 @@
                     </section>
                 </div>
             </div>
-            <div class="team">
-                <p>Trusted by the teams at: </p>
-                <ul>
-                    <li><a href="#"> <img class="img-fluid" src="images/banner-img1.svg"></a> </li>
-                    <li><a href="#"><img class="img-fluid" src="images/banner-img2.svg"></a></li>
-                    <li><a href="#"><img class="img-fluid" src="images/banner-img3.svg"></a></li>
-                    <li><a href="#"><img class="img-fluid" src="images/banner-img4.svg"></a></li>
-                </ul>
-            </div>
+
         </div>
     </div>
 
@@ -200,12 +201,9 @@
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-12">
                         <div class="gro-img-box">
-                            
-                        <img class="img-fluid" src="images/growth-img.png">
-                        <div class="img-content">
-                            tryvevnjerinvirbvi
+
+                            <img class="img-fluid" src="images/growth-img.png">
                         </div>
-                    </div>
                     </div>
                 </div>
             </section>
@@ -272,7 +270,6 @@
         </div>
     </div>
 
-
     <div class="blob_wrapper">
         <div class="container">
             <section class="wow fadeIn">
@@ -325,36 +322,46 @@
             <div class="row">
                 <div class="col-lg-6  col-sm-12">
                     <section class="wow slideInUp" data-wow-duration="0.8s" data-wow- delay="3s">
-                        <img class="img-fluid" src="images/team1.jpg">
+                        <div class="img-box">
+                            <img class="img-fluid" src="images/team1.jpg">
+                        </div>
                     </section>
                 </div>
                 <div class="col-lg-6 col-sm-12">
                     <section class="wow slideInUp" data-wow-duration="1.2s" data-wow- delay="3.5s">
-                        <div class="team-content">
-                            <h1> With team of dedicated professionals you will be in good hands.</h1>
-                            <p>We develop software solutions by working closely with clients to understand business
-                                needs.
-                                Innovative solutions built with client's vision and our technical expertise empower the
-                                businesses in modern digital world.</p>
+                        <div class="team">
+                            <div class="team-content">
+                                <h1> With team of dedicated professionals you will be in good hands.</h1>
+                                <p>We develop software solutions by working closely with clients to understand business
+                                    needs.
+                                    Innovative solutions built with client's vision and our technical expertise empower
+                                    the
+                                    businesses in modern digital world.</p>
+                            </div>
                         </div>
                     </section>
                 </div>
             </div>
             <div class="row">
                 <div class=" col-lg-6  col-sm-12">
-                    <section class="wow slideInUp" data-wow-duration="1.2s" data-wow- delay="3.5s">
-                        <div class="team-content">
-                            <h1> With team of dedicated professionals you will be in good hands.</h1>
-                            <p>We develop software solutions by working closely with clients to understand business
-                                needs.
-                                Innovative solutions built with client's vision and our technical expertise empower the
-                                businesses in modern digital world.</p>
-                        </div>
+                    <div class="team">
+                    <section class="wow slideInUp" data-wow-duration="1.2s" data-wow- delay="3.5s"> 
+                            <div class="team-content">
+                                <h1> With team of dedicated professionals you will be in good hands.</h1>
+                                <p>We develop software solutions by working closely with clients to understand business
+                                    needs.
+                                    Innovative solutions built with client's vision and our technical expertise empower
+                                    the
+                                    businesses in modern digital world.</p>
+                            </div>
                     </section>
+                </div>
                 </div>
                 <div class=" col-lg-6 col-sm-12">
                     <section class="wow slideInUp" data-wow-duration="0.8s" data-wow- delay="3s">
-                        <img class="img-fluid" src="images/team2.jpg">
+                        <div class="img-box">
+                            <img class="img-fluid" src="images/team2.jpg">
+                        </div>
                     </section>
                 </div>
             </div>
@@ -374,6 +381,7 @@
                     </ul>
                 </div>
                 <img class="img-fluid" id="my-image" src="images/enterprise1.webp">
+                <p></p>
             </section>
         </div>
     </div>
@@ -669,6 +677,8 @@
         const myImage = document.getElementById("my-image");
         showImageButton.addEventListener("click", () => {
             myImage.src = "images/enterprise2.png";
+            
+
         });
 
         const showImageButton2 = document.getElementById("show-image-button2");
